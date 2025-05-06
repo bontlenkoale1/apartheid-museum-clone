@@ -124,6 +124,14 @@ a:hover::after {
   .container {
     max-width: 1280px;
   }
+/*hr {
+    border: none;
+    border-bottom: 1px solid rgba(68, 68, 68, 0.425);
+    width: 124.5%;
+    right: -80px;
+    box-sizing: border-box;
+    margin-left: -152px;
+}*/
 }
 
 @media (max-width: 1280px) {
@@ -139,6 +147,14 @@ a:hover::after {
 
     font-size: 18px;
   }
+  hr {
+    border: none;
+    border-bottom: 1px solid rgba(68, 68, 68, 0.425);
+    width: 115.5%;
+    right: -80px;
+    box-sizing: border-box;
+    margin-left: -85px;
+}
 }
 @media (max-width: 1024px) {
   .container {
@@ -149,12 +165,12 @@ a:hover::after {
   hr {
       border: none;
       border-bottom: 1px solid rgba(0, 0, 0, 0.377);
-      width: 138.8%;
+      width: 140.8%;
       box-sizing: border-box;
       margin-left:-145px;
     }
   .navbar h1 {
-    margin-left: -49px;
+   /* margin-left: -49px;*/
     font-size: 16px;
   }
 
@@ -177,12 +193,17 @@ a:hover::after {
   .nav-links {
     display: none;
   }
+  .navbar h1 {
+    margin-left: 10px;
+   
+   }
   .close-icon {
     display: flex;
     margin-bottom: 20px;
   }
   .menu-icon {
     display: flex;
+    margin-right: -57px;
   }
   .sidebar.open {
     display: flex;
@@ -216,7 +237,7 @@ a:hover::after {
   hr {
     border: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.377);
-    width: 154.18%;
+    width: 155.18%;
     box-sizing: border-box;
     margin-left:-145px;
   }
@@ -228,10 +249,14 @@ a:hover::after {
   .container {
     max-width: 100%;
   }
+  .menu-icon {
+    display: flex;
+    margin-right: -112px;
+  }
   hr {
     border: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.377);
-    width: 175%;
+    width: 183%;
     box-sizing: border-box;
     margin-left:-145px;
   }
