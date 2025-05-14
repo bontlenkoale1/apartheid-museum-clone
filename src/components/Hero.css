@@ -1,25 +1,31 @@
 .hero-wrapper{
     display: flex;
- flex-direction: column;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 120.6%;
+/*width: 120.6%;*/
     margin: 0;
     max-width: none;
     margin-top: 15px;
     margin-left: -65px;;
 }
 .hero-image{
-    width: 120%;
+ background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/Images/hero.png');
+    width: 121%;
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
     overflow: hidden;
 }
-.hero-image img{
+/*.hero-image img{
 width: 121%;
 height: auto;
 object-fit: cover;
 display: block;
 margin-left: -80px;
-}
+}*/
 .container {
     width: 90%;
     max-width: none;
@@ -29,17 +35,18 @@ margin-left: -80px;
 
 /* search bar */
 .hero-search-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+   position: relative;
+  margin: 0 auto;
   width: 100%;
+  margin-top: -200px;
+   z-index: 1000;
   max-width: 600px;
   padding: 0 20px;
 }
 
 /* Search Form */
 .hero-form {
+  margin-top: -250px;
   width: 100%;
 }
 
@@ -111,26 +118,23 @@ margin-left: -80px;
       max-width: 1280px;
     }
     .hero-wrapper {
-        width: 110%;
-        margin-left: -50px;
+        width: 116%;
+        margin-left: -45px;
     }
-    
     .hero-image img {
         margin-left: -60px;
     }
-    
+/*.hero-search-container {
+      margin-top: -163px;
+    }*/
   }
 @media (max-width: 1280px) {
     .container {
       max-width: 1024px;
     }
     .hero-wrapper {
-        width: 112%;
-        margin-left: -40px;
-    }
-    
-    .hero-image img {
-        margin-left: -50px;
+        width: 115%;
+/*margin-left: -40px;*/
     }
   }
 @media (max-width: 1024px) {
@@ -141,7 +145,6 @@ margin-left: -80px;
         width: 125%;
         margin-left: -30px;
     }
-    
     .hero-image img {
         margin-left: 2px;
     }
@@ -153,6 +156,10 @@ margin-left: -80px;
     .hero-wrapper {
         width: 130%;
     }
+/*.hero-search-container {
+    left: 50%;
+    transform: translateX(-50%);
+  }*/
   }
 @media (max-width: 475px) {
     .container {
@@ -162,4 +169,8 @@ margin-left: -80px;
         width: 149%;
 
     }
+/*    .hero-search-container {
+    left: 50%;
+    transform: translateX(-50%);
+  }*/
   }
