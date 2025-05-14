@@ -1,0 +1,80 @@
+.about-wrapper {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 58vh;
+}
+.about-image-content img {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    margin-left: -80px;
+    margin-top: -20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.397);
+    transition: transform 0.3s ease;
+}
+.about-image-content:hover img {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    filter: brightness(0.9);
+}
+.about-text-content-right h1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -289px;
+    margin-right: 180px;
+    color: #000;
+    font-size: 35px;
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;
+}
+.hover-underline {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color:#e8c09f;
+  transition: width 0.3s ease;
+}
+
+
+.about-text-content-right h1:hover .hover-underline {
+  width: 50%;
+}
+/* About.css */
+.about-text-content {
+  max-width: 800px; /* Optimal line length for readability */
+  margin: 0 auto; /* Center the text block */
+  padding: 20px;
+  line-height: 1.6; /* Better vertical spacing */
+  color: #333; /* Soft black for better readability */
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Modern font stack */
+}
+
+.about-text-content p {
+  margin-bottom: 1em; /* Consistent spacing between paragraphs */
+  font-size: 1.1rem; /* Slightly larger than default */
+  text-align: left; /* Or use 'justify' for a polished look */
+}
+
+.about-text-content p:last-child {
+  margin-bottom: 0; /* Remove extra space after last paragraph */
+}
+
+/* Bold text styling */
+.about-text-content p bold {
+  font-weight: 600; /* Semi-bold for emphasis */
+  color: #222; /* Darker than regular text */
+}
+
+/* Optional: Add a subtle hover effect */
+.about-text-content p:hover {
+  opacity: 0.9;
+  transition: opacity 0.2s ease;
+}
