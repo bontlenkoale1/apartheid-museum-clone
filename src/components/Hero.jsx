@@ -9,9 +9,9 @@ const Hero = () => {
             <div className="hero-wrapper">
                 <div className="hero-image">
                 </div>
-               <div className="hero-search-container">
-  <form className="hero-form">
-    <div className="search-input-wrapper">
+                <div className="hero-search-container">
+            <form className="hero-form">
+      <div className="search-input-wrapper">
       <input
         type="text"
         id="search"
