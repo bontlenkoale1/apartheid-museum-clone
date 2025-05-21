@@ -1,17 +1,19 @@
-import React from 'react';
-import { Navbar } from "./components/Navbar";
+import React from "react";
+import {Navbar} from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
-import './App.css';
+import OpenDays from "./components/OpenDays";
+import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-     < Navbar />
-      < Hero />
-     < About />
-    </div>
-  );
+    return (
+        <div className="App">
+            <Navbar />
+            <Hero />
+            <About />
+            <OpenDays />
+        </div>
+    );
 }
 
 export default App;
