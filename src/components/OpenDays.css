@@ -1,0 +1,60 @@
+.open-days-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+.open-days-content-image {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-right: -45vw;
+    margin-bottom: 15px;
+}
+.open-days-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    height: auto;
+    border-radius: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.397);
+    transition: transform 0.3s ease;
+}
+.open-days-image:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    filter: brightness(0.9);
+}
+.open-days-content-text-wrapper {
+    position: relative;
+    width: 100vw;
+    left: 68.7%;
+    right: 60%;
+    margin-left: -60vw;
+    margin-right: -60vw;
+    background-color: #E4A671;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1vh;
+    padding: 2rem 1rem;
+}
+.clock-icon {
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    margin-right: 150px;
+}
+.open-days-content-text{
+    color: #fff;
+    display:block;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    margin-left: -70px;
+}
+
+/* Responsive Styles */
