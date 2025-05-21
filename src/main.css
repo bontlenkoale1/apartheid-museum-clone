@@ -1,60 +1,57 @@
 /* main.css */
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Pixelify+Sans:wght@400..700&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Pixelify+Sans:wght@400..700&family=Playwrite+IT+Moderna:wght@100..400&display=swap");
 
 /* Base Reset */
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  font-family: "Instrument Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: "Instrument Sans", sans-serif;
 }
 
 /* Container System */
 .container {
-  max-width: 1536px;
+    max-width: 1536px;
 }
-
 
 /* Responsive Breakpoints */
 @media (max-width: 1536px) {
-  .container {
-    max-width: 1280px;
-  }
+    .container {
+        max-width: 1280px;
+    }
 }
 
 @media (max-width: 1280px) {
-  .container {
-    max-width: 1024px;
-  }
-  
+    .container {
+        max-width: 1024px;
+    }
 }
 
 @media (max-width: 1024px) {
-  .container {
-    max-width: 768px;
-  }
+    .container {
+        max-width: 768px;
+    }
 }
 
 @media (max-width: 768px) {
-  .container {
-    max-width: 640px;
-  }
-  
+    .container {
+        max-width: 640px;
+    }
 }
 
 @media (max-width: 640px) {
-  .container {
-    max-width: 475px;
-  }
+    .container {
+        max-width: 475px;
+    }
 }
 
 @media (max-width: 475px) {
-  .container {
-    width: 100%;
-  }
+    .container {
+        width: 100%;
+    }
 }
