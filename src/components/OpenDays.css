@@ -30,9 +30,9 @@
 .open-days-content-text-wrapper {
     position: relative;
     width: 100vw;
-    left: 68.7%;
+    left: 66%;
     right: 60%;
-    margin-left: -60vw;
+    margin-left: -59vw;
     margin-right: -60vw;
     background-color: #E4A671;
     display: flex;
@@ -58,3 +58,22 @@
 }
 
 /* Responsive Styles */
+@media (max-width: 1536px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+
+/*@media (max-width: 1280px) {
+    .container {
+        max-width: 1024px;
+    }
+     .open-days-content-text-wrapper {
+    left: 60%;
+    padding: 2rem 1rem;
+  }
+  .open-days-content-text {
+    font-size: 20px;
+  }
+}
