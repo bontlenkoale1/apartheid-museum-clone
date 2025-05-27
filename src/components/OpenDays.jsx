@@ -6,7 +6,7 @@ const OpenDays = () => {
         <div className="container">
         <div className="open-days-wrapper">
             <div className="open-days-content-image">
-                <img src="public/Images/image 4.png" alt="Open Days" className="open-days-image" />
+                <img src="/Images/image 4.png" alt="Open Days" className="open-days-image" />
             </div>
             </div>
             <div className="open-days-content-text-wrapper">
