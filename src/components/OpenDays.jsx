@@ -1,12 +1,13 @@
 import React from "react";
 import "./OpenDays.css";
+import segregationImage from '/Images/segregation.png';
 
 const OpenDays = () => {
     return (
         <div className="container">
         <div className="open-days-wrapper">
             <div className="open-days-content-image">
-                <img src="/Images/image 4.png" alt="Open Days" className="open-days-image" />
+                <img src={segregationImage} alt="Segregation" className="open-days-image" />
             </div>
             </div>
             <div className="open-days-content-text-wrapper">
