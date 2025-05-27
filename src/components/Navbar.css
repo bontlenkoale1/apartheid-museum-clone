@@ -162,7 +162,7 @@ a:hover::after {
   hr {
       border: none;
       border-bottom: 1px solid rgba(0, 0, 0, 0.377);
-      width: 154.9%;
+      width:157.9%;
       box-sizing: border-box;
       margin-left:-145px;
     }
@@ -181,7 +181,10 @@ a:hover::after {
   .nav-links li {
     margin: 0;
   }
-
+    .hero-wrapper {
+        width: 125%;
+        margin-left: -18px;
+    }
   a {
     font-size: 14px;
   }
@@ -200,14 +203,14 @@ a:hover::after {
   }
   .menu-icon {
     display: flex;
-    margin-right: -57px;
+    margin-right: -71px;
   }
   .sidebar.open {
     display: flex;
     position: fixed;
     top: 0;
     right: 0;
-    height: 100vh;
+    height: 50vh;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
@@ -226,6 +229,8 @@ a:hover::after {
   .sidebar li {
     width: 100%;
   }
+  .navbar h1 {
+    font-size: 30px;
 }
 @media (max-width: 640px) {
   .container {
@@ -234,13 +239,18 @@ a:hover::after {
   hr {
     border: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.377);
-    width: 167.18%;
+    width: 198.18%;
     box-sizing: border-box;
     margin-left:-145px;
   }
   .navbar h1 {
-    font-size: 18px;
+    font-size: 21px;
+    margin-left: -26px;
   }
+      .menu-icon {
+        display: flex;
+        margin-right: -196px;
+    }
 }
 @media (max-width: 475px) {
   .container {
@@ -248,16 +258,20 @@ a:hover::after {
   }
   .menu-icon {
     display: flex;
-    margin-right: -112px;
+    margin-right: -231px;
   }
   hr {
     border: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.377);
-    width: 192%;
+    width: 255%;
     box-sizing: border-box;
     margin-left:-145px;
   }
   .navbar h1 {
-    font-size: 18px;
+    font-size: 23px;
   }
+      .hero-wrapper {
+        width: 200px;
+    }
+}
 }
