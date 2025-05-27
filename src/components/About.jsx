@@ -17,12 +17,12 @@ const About = () => {
                         dealing with 20th century South Africa, at the heart of which is the apartheid story.
                     </p>
                     <p>
-                        <bold>
+                        <strong>
                             The Apartheid Museum,the first of its kind, illustrates the rise and fall of apartheid.An
                             architectural consortium, comprising several leading architectural firms, conceptualised the
                             design of the building on a seven-hectare stand. The museum is a superb example of
                             design,space and landscape offering a unique experience to local and international visitors
-                        </bold>
+                        </strong>
                     </p>
                 </div>
                 <div className="about-button-wrapper">
