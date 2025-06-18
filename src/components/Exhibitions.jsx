@@ -1,6 +1,7 @@
 import React from "react";
 import "./Exhibitions.css";
 
+
 function Exhibitions() {
     return (
         <div className="container">
@@ -24,9 +25,7 @@ function Exhibitions() {
                     </svg>
                 </div>
                 <div className="exhibitions-content">
-                    <h2>Exhibitions <span className="highlight"> Now On</span>  !</h2>
-                </div>
-            </div>
+
         </div>
     );
 }
