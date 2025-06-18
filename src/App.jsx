@@ -3,6 +3,7 @@ import {Navbar} from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import OpenDays from "./components/OpenDays";
+
 import Exhibitions from "./components/Exhibitions";
 import "./App.css";
 
