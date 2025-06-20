@@ -1,4 +1,4 @@
-.open-days-wrapper {
+/*.open-days-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,7 +58,7 @@
 }
 
 /* Responsive Styles */
-@media (max-width: 1536px) {
+/*@media (max-width: 1536px) {
     .container {
         max-width: 1280px;
     }
@@ -149,7 +149,7 @@
     .container {
         max-width: 475px;
         /*padding: 0 15px;*/
-    }
+  /*  }
 
     .open-days-wrapper {
         margin-top: 4vh;
@@ -187,7 +187,7 @@
 }
 
 /* Hover effects for touch devices */
-@media (hover: none) {
+/*@media (hover: none) {
     .open-days-image:hover {
         transform: none;
         filter: none;
