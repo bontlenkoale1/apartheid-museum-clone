@@ -1,60 +1,46 @@
-/*.hero-wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 110.30%;
-    margin: 0;
-    max-width: none;
-    margin-top: 15px;
-    margin-left: -56px;
- margin-bottom: 2rem;
- overflow: visible !important;
+.hero-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin-top: -70px;
+}
 
-}
-.hero-image{
- /*background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/Images/hero.png');*/
-  /*  width: 122%;
-    height: 900px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    overflow: hidden;
-}
-/*.hero-image img{
-width: 121%;
-height: auto;
-object-fit: cover;
-display: block;
-margin-left: -80px;
-}*/
-/*.container {
-    width: 90%;
-    max-width: none;
-    padding: 0;
-    margin: 0;
+.hero-image {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.225),
+      rgba(0, 0, 0, 0.192)
+    ),
+    url("/Images/2021-05-31_ApartheidMuseumEntrance.png");
+  width: 99vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* search bar */
-/*.hero-search-container {
-   position: relative;
+.hero-search-container {
+  position: relative;
   margin: 0 auto;
   width: 100%;
   margin-top: -200px;
-   z-index: 1000;
+  z-index: 1;
   max-width: 600px;
-  padding: 0 20px;
 }
 
 /* Search Form */
-/*.hero-form {
+.hero-form {
   margin-top: -250px;
   width: 100%;
 }
 
 .search-input-wrapper {
   position: relative;
+  display: flex;
   width: 100%;
 }
 
@@ -67,8 +53,8 @@ margin-left: -80px;
   font-size: 18px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
-.hero-input:hover{
-  border: 2px solid #aa7549;
+.hero-input:hover {
+  border: 2px solid #dac7b755;
   background-color: #f1c68e;
   transition: all 0.3s ease-in-out;
 }
@@ -78,7 +64,7 @@ margin-left: -80px;
   font-weight: 400;
 }
 .hero-input:hover::placeholder {
-  color: #ecb88a;
+  color: #fffefe;
   font-size: 18px;
   font-weight: 400;
 }
@@ -87,7 +73,7 @@ margin-left: -80px;
 }
 
 /* Search Button */
-/*.search-button {
+.search-button {
   position: absolute;
   right: 15px;
   top: 50%;
@@ -101,7 +87,7 @@ margin-left: -80px;
 .search-icon {
   width: 20px;
   height: 20px;
-  color:#af5507;
+  color: #af5507;
   font-size: 18px;
   margin-right: 10px;
 }
@@ -110,65 +96,280 @@ margin-left: -80px;
   transition: all 0.3s ease-in-out;
 }
 
-
-/* Media Queries */
-/*@media (max-width: 1536px) {
-    .container {
-      max-width: 1280px;
-    }
-    .hero-wrapper {
-        width: 108.10%;
-        margin-left: -30px;
-    }
-    .hero-image img {
-        margin-left: -60px;
-    }
-/*.hero-search-container {
-      margin-top: -163px;
-    }*/
-  /*}*/
-/*@media (max-width: 1280px) {
-    .container {
-      max-width: 1024px;
-    }
-    .hero-wrapper {
-        width: 115%;
-/*margin-left: -40px;*/
-    /*}
-  /*media (max-width: 1024px) {
-    .container {
-      max-width: 768px;
-    }
-    .hero-wrapper {
-        width: 125%;
-        margin-left: -30px;
-    }
-    .hero-image img {
-        margin-left: 2px;
-    }
+/* Media Queries*/
+@media (max-width: 1024px) {
+  .container {
+    max-width: 95vw; 
   }
-  @media (max-width: 640px) {
-    .container {
-      max-width: 475px;
-    }
-    .hero-wrapper {
-        width: 130%;
-    }
-/*.hero-search-container {
-    left: 50%;
-    transform: translateX(-50%);
-  }*/
-  /*}
-@media (max-width: 475px) {
-    .container {
-      width: 100%;
-    }
-    .hero-wrapper {
-        width: 194%;
 
-    }
-/*    .hero-search-container {
-    left: 50%;
-    transform: translateX(-50%);
-  }*/
-  /*}*/
+  .hero-wrapper {
+    height: 85vh;
+    margin-top: -40px;
+  }
+
+  .hero-image {
+    width: 119vw; 
+  }
+
+  .hero-search-container {
+    margin-top: -150px;
+  }
+
+  .hero-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 140px;
+    margin-top: -180px;
+  }
+
+  .hero-input {
+    align-items: center;
+    font-size: 16px;
+  }
+
+  .search-icon {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (max-width: 875px) {
+  .hero-image {
+    height: 85vh;
+    width: 120vw;
+    background-position: center top;
+  }
+}
+@media (max-width: 869px) {
+  .hero-image {
+    height: 85vh;
+    width: 122vw;
+    background-position: center top;
+  }
+}
+@media (max-width: 855px) {
+  .hero-image {
+    width: 125vw; 
+    background-position: center top;
+  }
+}
+
+@media (max-width: 833px) {
+  .hero-image {
+    width: 127vw; 
+    background-position: center top;
+  }
+}
+@media (max-width: 824px) {
+  .hero-image {
+    width: 130vw; 
+    background-position: center top;
+  }
+}
+@media (max-width: 807px) {
+  .hero-image {
+    width: 135vw;
+    background-position: center top;
+  }
+}
+@media (max-width: 789px) {
+  .hero-image {
+    width: 140vw; 
+    background-position: center top;
+  }
+}
+@media (max-width: 777px) {
+  .hero-image {
+    width: 140vw; 
+    background-position: center top;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+  .hero-image {
+    width: 155vw; 
+    background-position: center top;
+  }
+}
+@media (max-width: 753px) {
+  .hero-image {
+    width: 160vw; 
+    background-position: center top;
+  }
+}
+@media (max-width: 729px) {
+  .hero-image {
+    width: 165vw; 
+    background-position: center top;
+  }
+}
+@media (max-width: 708px) {
+  .hero-image {
+    width: 170vw; 
+    background-position: center top;
+  }
+}
+@media (max-width: 683px) {
+  .hero-image {
+    width: 175vw;
+    background-position: center top;
+  }
+}
+@media (max-width: 670px) {
+  .hero-image {
+    width: 180vw;
+    background-position: center top;
+  }
+}
+@media (max-width: 658px) {
+  .hero-image {
+    width: 185vw; 
+    background-position: center top;
+  }
+}
+@media (max-width: 646px) {
+  .hero-image {
+    width: 190vw;
+    background-position: center top;
+  }
+}
+@media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+  .hero-image {
+    width: 210vw; 
+    background-position: center top;
+  }
+}
+@media (max-width: 618px) {
+  .hero-image {
+    width: 215vw; 
+    background-position: center top;
+  }
+}
+@media (max-width: 605px) {
+  .hero-image {
+    width: 220vw;
+    background-position: center top;
+  }
+}
+@media (max-width: 591px) {
+  .hero-image {
+    width: 225vw; 
+    background-position: center top;
+  }
+}
+
+@media (max-width: 575px) {
+  .hero-image {
+    width: 230vw;
+    background-position: center top;
+  }
+}
+@media (max-width: 563px) {
+  .hero-image {
+    width: 235vw;
+    background-position: center top;
+  }
+}
+@media (max-width: 547px) {
+  .hero-image {
+    width: 243vw; 
+    background-position: center top;
+  }
+}
+@media (max-width: 538px) {
+  .hero-image {
+    width: 245vw; 
+    background-position: center top;
+  }
+}
+@media (max-width:525px) {
+  .hero-image {
+    width: 260vw; 
+    background-position: center top;
+  }
+}
+@media (max-width: 500px) {
+  .hero-image {
+    width: 270vw;
+    background-position: center top;
+  }
+}
+@media (max-width: 490px) {
+  .hero-image {
+    width: 300vw; 
+    background-position: center top;
+  }
+}
+@media (max-width: 475px) {
+  .hero-image {
+    width: 320vw;
+    background-position: center top;
+  }
+}
+@media (max-width: 450px) {
+  .hero-image {
+    width: 340vw;
+    background-position: center top;
+  }
+}
+@media (max-width: 429px) {
+  .hero-image {
+    width: 360vw; 
+    background-position: center top;
+  }
+}
+@media (max-width: 410px) {
+  .hero-image {
+    width: 388vw;
+    background-position: center top;
+  }
+}
+
+@media (max-width: 390px) {
+  .hero-image {
+    width: 405vw; 
+    background-position: center top;
+  }
+}
+@media (max-width: 376px) {
+  .hero-image {
+    width: 410vw; 
+    background-position: center top;
+  }
+}
+@media (max-width: 368px) {
+  .hero-image {
+    width: 420vw; 
+    background-position: center top;
+  }
+}
+@media (max-width: 360px) {
+  .hero-image {
+    width: 430vw; 
+    background-position: center top;
+  }
+}
+@media (max-width: 350px) {
+  .hero-image {
+    width: 440vw; 
+    background-position: center top;
+  }
+}
+@media (max-width: 344px) {
+  .hero-image {
+    width: 450vw;
+    background-position: center top;
+  }
+}
+@media (max-width: 330px) {
+  .hero-image {
+    width: 475vw; 
+    background-position: center top;
+  }
+}
