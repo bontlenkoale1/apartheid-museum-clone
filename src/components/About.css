@@ -196,7 +196,7 @@
   }
 
   .about-wrapper {
-    margin-top: 15vh;
+    margin-top: 28vh;
     display: flex;
     flex-direction: column;
     margin-right: -201px;
@@ -222,7 +222,7 @@
     flex-direction: column;
     align-items: center;
     margin-right: -201px;
-    margin-top: 20vh;
+    margin-top: 30vh;
   }
   .hover-underline {
     position: absolute;
