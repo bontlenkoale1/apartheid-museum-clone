@@ -39,7 +39,7 @@ function Exhibitions() {
                         Born Free : Generation of Hope explores South Africa’s journey over the past three decades
                         through the eyes of those born around 1994.
                     </p>
-                    <button class="learn-more">Learn More</button>
+                    <button className="learn-more">Learn More</button>
                 </div>
             </div>
             <div></div>
@@ -89,7 +89,7 @@ function Exhibitions() {
                     <path
                         d="M114 192C176.96 192 228 149.019 228 96C228 42.9807 176.96 0 114 0C51.0395 0 0 42.9807 0 96C0 149.019 51.0395 192 114 192Z"
                         fill="#C09453"
-                        fill-opacity="0.78"
+                        fillOpacity="0.78"
                     />
                 </svg>
             </div>
@@ -100,7 +100,7 @@ function Exhibitions() {
                     <p>
                         Celebrating the 40th anniversary of the<strong>united Democratic Front </strong>{" "}
                     </p>
-                    <button class="learn-more">Learn More</button>
+                    <button className="learn-more">Learn More</button>
                 </div>
             </div>
             <div></div>
@@ -115,7 +115,7 @@ function Exhibitions() {
                     <path
                         d="M114 192C176.96 192 228 149.019 228 96C228 42.9807 176.96 0 114 0C51.0395 0 0 42.9807 0 96C0 149.019 51.0395 192 114 192Z"
                         fill="#C09453"
-                        fill-opacity="0.50"
+                        fillOpacity="0.50"
                     />
                 </svg>
             </div>
