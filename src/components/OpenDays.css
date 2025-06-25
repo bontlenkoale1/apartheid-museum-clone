@@ -69,136 +69,92 @@
   margin: 0 auto;
 }
 
+
 /* Responsive Styles */
 @media (max-width: 1536px) {
   .container {
     max-width: 1280px;
   }
-}
+  .banner-image {
+    display: flex;
+    justify-content: right;
 
-/*@media (max-width: 1280px) {
-    .container {
-        max-width: 1024px;
-    }
-    .open-days-content-image {
-        margin-right: -30vw;
-    }
-    .open-days-content-text-wrapper {
-        left: 4%;
-        margin-left: -7vw;
-        margin-right: -50vw;
-        width: 109vw;
-    }
-    .open-days-content-text {
-        font-size: 18px;
-    }
-    .open-days-content-text-wrapper:hover {
-        background-color: #a04f04;
-    }
+    margin-right: -32vw;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 1280px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .open-days-container {
+    width: 100vw;
+    margin-left: 0;
+    left: -34px;
+  }
+  .banner-image {
+    margin-right: -18vw;
+  }
 }
 @media (max-width: 1024px) {
-    .container {
-        max-width: 768px;
-    }
-    .open-days-wrapper {
-        display: flex;
-        flex-direction: column;
-    }
-    .open-days-content-image {
-        display: block;
-        justify-content: center;
-        align-items: center;
-    }
-    .open-days-image {
-        width: 90%;
-        height: auto;
-        margin-top: 50px;
-        margin-left: -40px;
-    }
-    .open-days-content-text-wrapper {
-        font-size: 20px;
-        text-align: center;
-        margin-left: -80px;
-    }
-    .open-days-content-text-wrapper:hover {
-        background-color: #a04f04;
-    }
-    .open-days-content-text {
-        font-size: 16px;
-        margin-left: -122px;
-    }
+  .container {
+    max-width: 100%;
+  }
+  .open-days-image {
+    width: 90%;
+  }
+
+  .open-days-container {
+    width: 122vw !important; 
+    left: -32px;
+    right: 0;
+    position: relative;
+    max-width: none !important;
+  }
 }
 @media (max-width: 768px) {
-    .container {
-        max-width: 640px;
-    }
-    .open-days-wrapper {
-        margin-top: 3vh;
-    }
-    .open-days-image {
-        width: 90%;
-        border-radius: 20px;
-        margin-top: 70px;
-        margin-bottom: 2px;
-    }
-    .open-days-content-text-wrapper {
-        padding: 1.2rem;
-    }
-    .open-days-content-text-wrapper:hover {
-        background-color: #a04f04;
-    }
-    .open-days-content-text {
-        font-size: 15px;
-    }
-    .clock-icon {
-        margin-right: 150px;
-    }
+  .open-days-image {
+    width: 100%;
+  }
+  .open-days-image {
+    width: 95%;
+  }
+  .banner-image {
+    margin-right: -25vw;
+  }
+  .open-days-container {
+    width: 148vw !important; 
+    left: -32px;
+    right: 0;
+    position: relative;
+    max-width: none !important;
+  }
 }
 @media (max-width: 640px) {
-    .container {
-        max-width: 475px;
-        /*padding: 0 15px;*/
-/*  }
-
-    .open-days-wrapper {
-        margin-top: 4vh;
-        flex-direction: column;
-    }
-
-    .open-days-content-image {
-        margin-right: 20px;
-        justify-content: center;
-    }
-
-    .open-days-image {
-        width: 145%;
-        margin: 20px 0 0 0;
-        border-radius: 20px;
-    }
-    .open-days-content-text-wrapper {
-        left: -10%;
-        margin-left: -7vw;
-        margin-right: -50vw;
-        width: 170vw;
-    }
-
-    .open-days-content-text {
-        font-size: 14px;
-        margin-left: 0;
-        padding: 0 30px;
-    }
-
-    .clock-icon {
-        margin-right: -21px;
-        width: 115px;
-        transform: scale(0.85);
-    }
+  .container {
+    max-width: 100%;
+  }
+  .open-days-image {
+    display: none;
+  }
+  .open-days-container {
+    width: 199vw !important;
+    left: -32px;
+    right: 0;
+    position: relative; 
+    max-width: none !important;
+  }
 }
-
-/* Hover effects for touch devices */
-/*@media (hover: none) {
-    .open-days-image:hover {
-        transform: none;
-        filter: none;
-    }
-}*/
+@media (max-width: 475px) {
+  .open-days-container {
+    width: 333vw !important;
+    left: -32px;
+    right: 0;
+    position: relative; 
+    max-width: none !important;
+  }
+  .banner-image {
+    margin-right: -30vw;
+  }
+}
