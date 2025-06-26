@@ -15,7 +15,8 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  width: 80%;
+  width: 100%;
+  max-width: 800px;
   height: auto;
   border-radius: 30px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.397);
@@ -69,19 +70,17 @@
   margin: 0 auto;
 }
 
-
 /* Responsive Styles */
 @media (max-width: 1536px) {
   .container {
     max-width: 1280px;
   }
-  .banner-image {
+  /*.banner-image {
     display: flex;
     justify-content: right;
-
     margin-right: -32vw;
     margin-bottom: 15px;
-  }
+  }*/
 }
 @media (max-width: 1280px) {
   .container {
@@ -93,8 +92,11 @@
     margin-left: 0;
     left: -34px;
   }
+  .open-days-image {
+    width: 90%;
+  }
   .banner-image {
-    margin-right: -18vw;
+    margin-right: 10px;
   }
 }
 @media (max-width: 1024px) {
@@ -102,11 +104,11 @@
     max-width: 100%;
   }
   .open-days-image {
-    width: 90%;
+    width: 80%;
   }
 
   .open-days-container {
-    width: 122vw !important; 
+    width: 100vw;
     left: -32px;
     right: 0;
     position: relative;
@@ -118,43 +120,50 @@
     width: 100%;
   }
   .open-days-image {
-    width: 95%;
+    width: 80%;
   }
-  .banner-image {
-    margin-right: -25vw;
-  }
+
+
   .open-days-container {
-    width: 148vw !important; 
+    width: 100vw !important;
     left: -32px;
     right: 0;
     position: relative;
     max-width: none !important;
+  }
+  .open-days-text p {
+    color: #fff;
+    font-size: 12px;
+    margin: 0;
+    line-height: 1.5;
   }
 }
 @media (max-width: 640px) {
   .container {
     max-width: 100%;
   }
-  .open-days-image {
-    display: none;
-  }
   .open-days-container {
-    width: 199vw !important;
+    width: 100vw !important;
     left: -32px;
     right: 0;
-    position: relative; 
+    position: relative;
     max-width: none !important;
   }
 }
 @media (max-width: 475px) {
   .open-days-container {
-    width: 333vw !important;
+    width: 100vw !important;
     left: -32px;
     right: 0;
-    position: relative; 
+    position: relative;
     max-width: none !important;
   }
-  .banner-image {
-    margin-right: -30vw;
+  .open-days-image {
+    width: 100%;
+  }
+  .open-days-wrapper {
+    flex-direction: column;
+    gap:10px;
+    margin-top: -10px;
   }
 }
