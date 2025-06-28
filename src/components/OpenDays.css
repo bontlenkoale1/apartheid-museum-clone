@@ -28,7 +28,7 @@
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
   filter: brightness(0.9);
 }
-.open-days-container {
+.container-fluid .open-days-container {
   background-color: #9f6a3e;
   width: 100vw;
   position: relative;

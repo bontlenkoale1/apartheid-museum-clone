@@ -14,6 +14,7 @@ const OpenDays = () => {
           />
         </div>
       </div>
+      <div className="container-fluid">
      <div className="open-days-container">
   <div className="open-days-wrapper">
     <div className="clock-icon-container">
@@ -32,6 +33,7 @@ const OpenDays = () => {
       <p>Please note: We are closed on Good Friday and open on Easter Monday.</p>
       <p>Free entry for all South Africans on Freedom Day - 27 April 2025.</p>
     </div>
+  </div>
   </div>
 </div>
     </div>
