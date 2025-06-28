@@ -45,3 +45,18 @@ h2 {
         color: #b68d57;
     }
 }
+.custom-btn {
+     background-color: #b68d57 !important;
+    color: #fff !important;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px !important;
+    font-family: "Instrument Sans", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.custom-btn:hover {
+  background-color: #6e4510 !important;
+  color: #fff !important;
+  border: none;
+}
