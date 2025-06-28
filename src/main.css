@@ -17,7 +17,7 @@
 }
 
 /* Container System */
-.container {
+.custom-container {
     max-width: 1536px;
 }
 body {
@@ -26,37 +26,37 @@ body {
 
 /* Responsive Breakpoints */
 @media (max-width: 1536px) {
-    .container {
+    .custom-container {
         max-width: 1280px;
     }
 }
 
 @media (max-width: 1280px) {
-    .container {
+    .custom-container {
         max-width: 1024px;
     }
 }
 
 @media (max-width: 1024px) {
-    .container {
+    .custom-container {
         max-width: 768px;
     }
 }
 
 @media (max-width: 768px) {
-    .container {
+    .custom-container {
         max-width: 640px;
     }
 }
 
 @media (max-width: 640px) {
-    .container {
+    .custom-container {
         max-width: 475px;
     }
 }
 
 @media (max-width: 475px) {
-    .container {
+    .custom-container {
         width: 100%;
     }
 }

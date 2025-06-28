@@ -35,7 +35,7 @@ export const Navbar = () => {
   }, [isSidebarOpen]);
 
   return (
-    <div className="container">
+    <div className="custom-container">
       <div className="navbar">
         <div className="navbar-logo">
           <img src={logo} alt="Apartheid Museum Logo" className="logo-image" />
