@@ -3,8 +3,8 @@ import {Navbar} from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import OpenDays from "./components/OpenDays";
-
 import Exhibitions from "./components/Exhibitions";
+import PermanentExhibitions from "./components/PermanentExhibitions";
 import "./App.css";
 
 function App() {
@@ -15,6 +15,7 @@ function App() {
             <About />
             <OpenDays />
             <Exhibitions />
+            <PermanentExhibitions />
         </div>
     );
 }
