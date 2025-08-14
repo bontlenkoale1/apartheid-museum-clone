@@ -5,6 +5,7 @@ import About from "./components/About";
 import OpenDays from "./components/OpenDays";
 import Exhibitions from "./components/Exhibitions";
 import PermanentExhibitions from "./components/PermanentExhibitions";
+import NewsLetter from "./components/NewsLetter";
 import "./App.css";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <OpenDays />
             <Exhibitions />
             <PermanentExhibitions />
+            <NewsLetter />
         </div>
     );
 }
