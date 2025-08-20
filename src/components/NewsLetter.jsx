@@ -66,11 +66,6 @@ const NewsLetter = () => {
                   Phone
                 </label>
                 <div className="phone-container">
-                  <select className="country-code" required>
-                    <option value="+254">+254</option> 
-                    <option value="+81">+81</option>
-                    <option value="+27">+27</option>
-                  </select>
                   <input
                     type="tel"
                     id="phone"
