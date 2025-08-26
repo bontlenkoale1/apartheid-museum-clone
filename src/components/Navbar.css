@@ -280,7 +280,7 @@ a:hover::after {
     position: fixed;
     top: 0;
     right: 0;
-    height: 70vh;
+    height: 69vh;
     width: 250px;
     flex-direction: column;
     justify-content: flex-start;
@@ -295,6 +295,54 @@ a:hover::after {
   }
 
   .sidebar li {
-    width: 100%;
+    width:50%;
+  }
+}
+@media (max-width: 640px) {
+  .custom-container {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .navbar h1 {
+    font-size: 18px;
+  }
+
+  .menu-icon-wrapper {
+    margin-right: 0;
+  }
+
+  .sidebar.open {
+    width: 200px;
+    height:68vh;
+    padding: 1.5rem;
+    width: 250px;
+  }
+
+  .sidebar a {
+    font-size: 16px;
+  }
+  .sidebar li {
+    width: 50%;
+  }
+}
+@media (max-width: 480px) {
+  .custom-container {
+    max-width: 100%;
+    padding: 0 5px;
+  }
+
+  .navbar h1 {
+    font-size: 16px;
+  }
+
+  .sidebar.open {
+    width: 210px;
+    height: 68vh;
+    padding: 1rem;
+  }
+
+  .sidebar a {
+    font-size: 14px;
   }
 }
