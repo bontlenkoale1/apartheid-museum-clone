@@ -1,7 +1,7 @@
 body, html {
   margin: 0;
   padding: 0;
-  overflow-x: hidden; /* Prevent horizontal scroll */
+  overflow-x: hidden;
 }
 
 .hero {
@@ -100,7 +100,6 @@ body, html {
   outline: none;
 }
 
-/* Search Button */
 .search-button {
   position: absolute;
   right: 15px;

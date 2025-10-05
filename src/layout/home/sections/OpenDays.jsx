@@ -4,7 +4,7 @@ import segregationImage from "/Images/segregation.png";
 
 const OpenDays = () => {
   return (
-    <div className="container">
+    <div className="custom-container">
       <div className="banner">
         <div className="banner-image">
           <img
