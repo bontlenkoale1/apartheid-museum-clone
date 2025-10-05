@@ -59,6 +59,12 @@
   transition: all 0.3s ease-in-out;
   position: relative;
 }
+.logo-link:hover,
+.logo-link:hover::after {
+  text-shadow: none !important;
+  content: none !important;
+}
+
 a:hover {
   text-shadow: 25px 2px 4px rgba(0, 0, 0, 0.137);
 }
@@ -189,13 +195,13 @@ a:hover::after {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 12px;
-    margin-top: 18px; /* 👈 adjust this value to control vertical position */
+    gap: 10px;
+    margin-top: 18px;
   }
 
   .custom-container a {
-    font-size: 16px;
-    gap: 15px;
+    font-size: 15px;
+    gap: 8px;
   }
 
   .custom-container .menu-icon-wrapper {
@@ -210,14 +216,14 @@ a:hover::after {
     }
      .navbar-logo {
     margin-left: 0;
-    gap: 10px;
+    gap: 8px;
   }
 
   .navbar h1 {
-    font-size: 18px;
+    font-size: 16px;
   }
   .nav-links {
-    gap: 8px;
+    gap: 5px;
     margin-right: 0;
   }
 
@@ -225,9 +231,7 @@ a:hover::after {
     margin: 0;
   }
   .custom-container a {
-  
-  font-size: 13px;
- 
+  font-size: 12px;
 }
 }
 @media (max-width: 768px) {
@@ -255,7 +259,10 @@ a:hover::after {
   .custom-container .nav-links {
     display: none;
   }
-
+ .custom-container a {
+  font-size: 13px;
+ 
+}
   .menu-icon-wrapper {
     display: flex;
     align-items: center;
@@ -320,7 +327,7 @@ a:hover::after {
   }
 
   .sidebar a {
-    font-size: 16px;
+    font-size: 14px;
   }
   .sidebar li {
     width: 50%;

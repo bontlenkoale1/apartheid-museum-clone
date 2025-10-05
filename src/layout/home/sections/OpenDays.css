@@ -72,7 +72,7 @@
 
 /* Responsive Styles */
 @media (max-width: 1536px) {
-  .container {
+  .custom-container {
     max-width: 1280px;
   }
   /*.banner-image {
@@ -83,7 +83,7 @@
   }*/
 }
 @media (max-width: 1280px) {
-  .container {
+  .custom-container {
     max-width: 100%;
   }
 
@@ -100,7 +100,7 @@
   }
 }
 @media (max-width: 1024px) {
-  .container {
+  .custom-container {
     max-width: 100%;
   }
   .open-days-image {
@@ -122,7 +122,9 @@
   .open-days-image {
     width: 80%;
   }
-
+  .open-days-image:hover {
+    transform: none;
+  }
 
   .open-days-container {
     width: 100vw !important;
@@ -139,7 +141,7 @@
   }
 }
 @media (max-width: 640px) {
-  .container {
+   .custom-container{
     max-width: 100%;
   }
   .open-days-container {
@@ -149,6 +151,10 @@
     position: relative;
     max-width: none !important;
   }
+  .open-days-image:hover {
+  transform: none;
+  
+}
 }
 @media (max-width: 475px) {
   .open-days-container {
@@ -163,7 +169,7 @@
   }
   .open-days-wrapper {
     flex-direction: column;
-    gap:10px;
+    gap: 10px;
     margin-top: -10px;
   }
 }

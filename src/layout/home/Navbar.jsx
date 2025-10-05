@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 import logo from "/Icons/logo.png";
 export const Navbar = () => {
@@ -57,45 +58,51 @@ export const Navbar = () => {
               <path d="m258.42-218.69-38.92-39.73L440.27-480 219.5-701.58l38.92-39.73L480-519.73l221.58-221.58 38.92 39.73L519.73-480 740.5-258.42l-38.92 39.73L480-440.27 258.42-218.69Z" />
             </svg>
           </div>
-          <li onClick={closeSidebar}>
-            <a href="#about-us">About Us</a>
+           <li onClick={closeSidebar}>
+            <Link to="/">Home</Link>
           </li>
           <li onClick={closeSidebar}>
-            <a href="#exhibitions">Exhibitions</a>
+            <Link to="/about">About Us</Link>
           </li>
           <li onClick={closeSidebar}>
-            <a href="#school-visits">School Visits</a>
+            <Link to="/exhibitions">Exhibitions</Link>
           </li>
           <li onClick={closeSidebar}>
-            <a href="#events">Events</a>
+            <Link to="/visit">School Visits</Link>
           </li>
           <li onClick={closeSidebar}>
-            <a href="#resources">Resources</a>
+            <Link to="/events">Events</Link>
           </li>
           <li onClick={closeSidebar}>
-            <a href="#contact-us">Contact Us</a>
+            <Link to="/resources">Resources</Link>
+          </li>
+          <li onClick={closeSidebar}>
+            <Link to="/contact">Contact Us</Link>
           </li>
         </ul>
 
         {/* Desktop Navigation */}
         <ul className="nav-links">
           <li>
-            <a href="#about-us">About Us</a>
+            <Link to="/">Home</Link>  
           </li>
           <li>
-            <a href="#exhibitions">Exhibitions</a>
+            <Link to="/about">About Us</Link>
           </li>
           <li>
-            <a href="#school-visits">School Visits</a>
+            <Link to="/exhibitions">Exhibitions</Link>
           </li>
           <li>
-            <a href="#events">Events</a>
+            <Link to="/visit">School Visits</Link>
           </li>
           <li>
-            <a href="#resources">Resources</a>
+            <Link to="/events">Events</Link>
           </li>
           <li>
-            <a href="#contact-us">Contact Us</a>
+            <Link to="/resources">Resources</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact Us</Link>
           </li>
         </ul>
 

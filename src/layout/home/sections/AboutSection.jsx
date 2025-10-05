@@ -1,7 +1,7 @@
 import React from "react";
-import "./About.css";
+import "./AboutSection.css";
 
-const About = () => {
+const AboutSection = () => {
     return (
         <div className="about-wrapper">
             <div className="about-image-content">
@@ -33,4 +33,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default AboutSection;
