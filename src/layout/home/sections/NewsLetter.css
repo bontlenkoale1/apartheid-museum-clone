@@ -250,12 +250,22 @@ h3.form-title {
     padding: 12px;
   }
 }
-@media(max-width:480px){
+@media (max-width: 640px) {
   .newsletter-title {
-    font-size: 16px;
+    font-size: 30px;
     color: #000;
     margin-bottom: 20px;
+  }
 }
+@media (max-width: 480px) {
+  .custom-container {
+    padding: 0 10px;
+  }
+  .newsletter-title {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 20px;
+  }
   .glass-form {
     padding: 20px;
   }
