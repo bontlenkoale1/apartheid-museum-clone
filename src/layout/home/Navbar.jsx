@@ -62,7 +62,7 @@ export const Navbar = () => {
             <Link to="/">Home</Link>
           </li>
           <li onClick={closeSidebar}>
-            <Link to="/about">About Us</Link>
+            <Link to="/AboutPage">About Us</Link>
           </li>
           <li onClick={closeSidebar}>
             <Link to="/exhibitions">Exhibitions</Link>
@@ -87,7 +87,7 @@ export const Navbar = () => {
             <Link to="/">Home</Link>  
           </li>
           <li>
-            <Link to="/about">About Us</Link>
+            <Link to="/AboutPage">About Us</Link>
           </li>
           <li>
             <Link to="/exhibitions">Exhibitions</Link>
