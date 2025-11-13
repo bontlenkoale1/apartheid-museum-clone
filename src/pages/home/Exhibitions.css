@@ -1,0 +1,94 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.exhibitionhero {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+.exhibitionhero-background {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.225),
+      rgba(0, 0, 0, 0.192)
+    ),
+    url("/Images/Apartheid-museum-Mandela-Exhibition-banner_7900f7cd03e44af544876f2d309bdce7.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -50px;
+}
+.exhibitionpage-h1-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Instrument Sans", sans-serif;
+  text-align: center;
+  color: #222;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+  position: relative;
+  margin-bottom: 50px;
+}
+.exhibitionpage-h1-wrapper h1::after {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 3px;
+  background-color: #b58b3b;
+  margin: 5px auto 0 auto;
+  border-radius: 2px;
+}
+.exhibitionpage-h1-wrapper h1:hover {
+  color: #b58b3b;
+  transition: color 0.4s ease;
+}
+.liberationleaders-header{
+  background-color: rgba(101, 69, 25, 0.753);
+  color: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.liberationleaders-header:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+.liberationleaders-header h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #ffcc00;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+.liberationleaders-header p {
+  font-size: 18px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  text-align: justify;
+}
