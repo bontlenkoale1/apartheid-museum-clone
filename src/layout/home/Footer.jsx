@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Footer.css";
 import logo from "/Icons/logo.png";
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
-  return  (
+  return (
     <footer className="footer-container">
       <div className="footer-content">
         <div className="footer-col">
@@ -18,13 +19,13 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-col">
-          <div div className="footer-links">
+          <div className="footer-links">
             <div className="footer-heading-row">
               <h3>About </h3>
             </div>
             <ul>
               <li>
-                <a href="#about-us">About Us</a>
+                <Link to="/AboutPage">About Us</Link>
               </li>
               <li>
                 <a href="#about-us-overview">About Us Overview</a>
@@ -33,31 +34,31 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-col">
-          <div div className="footer-links">
+          <div className="footer-links">
             <div className="footer-heading-row">
               <h3>Exhibitions</h3>
             </div>
             <ul>
               <li>
-                <a href="#permanent-exhibitions">Permanent Exhibitions</a>
+             <Link to="/exhibitions">Permanent Exhibitions</Link>
               </li>
               <li>
-                <a href="#Mandela-exhibitions">Mandela Exhibition</a>
+                <Link to="/exhibitions">Mandela Exhibition</Link>
               </li>
               <li>
-                <a href="#hugh-masekela-exhibition">Hugh Masekela Exhibition</a>
+                <Link to="/exhibitions">Hugh Masekela Exhibition</Link>
               </li>
               <li>
-                <a href="#desmond-tutu-exhibition">Desmond Tutu Exhibition</a>
+                < Link to="/exhibitions">Desmond Tutu Exhibition</Link>
               </li>
               <li>
-                <a href="#past-exhibition">Past Exhibitions</a>
+                <Link to="/exhibitions">Past Exhibitions</Link>
               </li>
             </ul>
           </div>
         </div>
         <div className="footer-col">
-          <div div className="footer-links">
+          <div className="footer-links">
             <div className="footer-heading-row">
               <h3>School Visits</h3>
             </div>
@@ -69,7 +70,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-col">
-          <div div className="footer-links">
+          <div className="footer-links">
             <div className="footer-heading-row">
               <h3>Events</h3>
             </div>
@@ -81,14 +82,14 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-col">
-          <div div className="footer-links">
+          <div className="footer-links">
             <div className="footer-heading-row">
               <h3>Resources</h3>
             </div>
           </div>
         </div>
         <div className="footer-col">
-          <div div className="footer-links">
+          <div className="footer-links">
             <div className="footer-heading-row">
               <h3>Contact Us</h3>
             </div>
@@ -110,7 +111,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-               <FaFacebook style={{ color: "#fff", fontSize: "20px" }} />
+              <FaFacebook style={{ color: "#fff", fontSize: "20px" }} />
             </a>
             <a
               href="https://x.com/apartheidmuseum"

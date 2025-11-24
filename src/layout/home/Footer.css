@@ -60,6 +60,9 @@
 .footer-col ul li a:hover {
   color: #fff;
 }
+a::after {
+  display: none;
+}
 .footer-bottom {
   border-top: 1px solid #333;
   margin-top: 40px;
@@ -138,7 +141,7 @@
 }
 @media (max-width: 768px) {
   .container {
-    max-width: 480px;
+    max-width: 640px;
   }
   .footer-content {
     display: flex;
@@ -170,5 +173,36 @@
   }
   .footer-heading-row h3 {
     font-size: 12px;
+  }
+}
+@media (max-width: 640px) {
+  .container {
+    max-width: 480px;
+  }
+  .footer-logo img {
+    width: 100px;
+    height: 100px;
+    margin-left: 6px;
+  }
+  .footer-logo h2 {
+    font-size: 16px;
+    margin-left: 6px;
+  }
+}
+@media (max-width: 480px) {
+  .footer-logo img {
+    width: 100px;
+    height: 100px;
+    margin-left: 6px;
+  }
+  .footer-logo h2 {
+    font-size: 16px;
+    margin-left: 6px;
+  }
+  .footer-col ul li a {
+    font-size: 11px;
+  }
+  .footer-col ul li {
+    margin-bottom: -5px;
   }
 }
