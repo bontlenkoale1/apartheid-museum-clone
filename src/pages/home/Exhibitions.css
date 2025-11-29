@@ -82,11 +82,6 @@ html {
   border-radius: 30px;
   margin: 20px 0;
 }
-/*.segragationimages {
-  width: 30%;
-  height: 30%;
-  border-radius: 30px;
-  margin: 20px 0;}*/
 
 section.exhibitionhero {
   padding-bottom: 50px;
@@ -119,9 +114,9 @@ section.exhibitionhero {
   transition: 0.8s all ease-in;
 }
 .custom-prev-btns:hover,
-.custom-next-btns:hover{
-  background-color:#fb9403;
-  color:white;
+.custom-next-btns:hover {
+  background-color: #fb9403;
+  color: white;
 }
 
 .custom-prev-btns {
@@ -136,4 +131,81 @@ section.exhibitionhero {
 .custom-next-btns svg {
   width: 18px;
   height: 18px;
+}
+
+/* Media Queries */
+@media (max-width: 1280px) {
+  .segragationimage {
+    width: 28%;
+  }
+  .permanent-image-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .exhibitionhero-background {
+    min-height: 40vh;
+  }
+
+  .permanent-exhibition-card {
+    width: 90%;
+  }
+
+  .segragationimage {
+    width: 80%;
+    margin: 20px 0;
+  }
+
+  .permanent-image-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 640px) {
+  .custom-prev-btns,
+  .custom-next-btns {
+    position: static !important;
+    top: auto !important;
+    right: auto !important;
+    margin: 10px 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .custom-swiper-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .exhibitionpage-h1-wrapper h1 {
+    font-size: 22px;
+  }
+
+  .permanent-exhibition-card h2 {
+    font-size: 20px;
+    margin-top: -30px;
+  }
+
+  .permanent-exhibition-card p {
+    font-size: 14px;
+    padding: 10px;
+    line-height: 1.1;
+  }
+
+  .segragationimage {
+    width: 95%;
+  }
+
+  .permanent-image-wrapper {
+    gap: 15px;
+  }
+
+  .custom-prev-btns,
+  .custom-next-btns {
+    margin: 8px 6px;
+  }
 }
