@@ -52,7 +52,7 @@ const Visit = () => {
           </li>
         </ul>
         {/* Visitors Guideline */}
-        <h3 className="guideline-info">Visitor guidelines</h3>
+        <h3 className="guideline-info">Visitor Guidelines:</h3>
         <ul className="info-list">
           <li>
             After securing a booking, teachers are encouraged to visit the
@@ -115,15 +115,14 @@ const Visit = () => {
           <span>School Visits</span>
           <span>(122 KB)</span>
           <div className="icons">
-            <a
-              href="/files/School-visits_latest_1.pdf"
+           <a
+              href="/apartheid-museum-clone/files/School-visits_latest_1.pdf"
               target="_blank"
-              rel="noopener noreferrer"
             >
               <FiEye size={16} />
             </a>
 
-            <a href="/files/School-visits_latest_1.pdf" download>
+            <a href="/apartheid-museum-clone/files/School-visits_latest_1.pdf" download>
               <FiDownload size={16} />
             </a>
           </div>
@@ -134,11 +133,14 @@ const Visit = () => {
           <span>Grade 6 & 7 Workbook</span>
           <span>(4.779 MB)</span>
           <div className="icons">
-            <a href="/files/Grade-6-7-workbook.pdf" target="_blank">
+            <a
+              href="/apartheid-museum-clone/files/grade6-7.pdf"
+              target="_blank"
+            >
               <FiEye size={16} />
             </a>
 
-            <a href="/files/Grade-6-7-workbook.pdf" download>
+            <a href="/apartheid-museum-clone/files/grade6-7.pdf" download>
               <FiDownload size={16} />
             </a>
           </div>
@@ -149,11 +151,17 @@ const Visit = () => {
           <span>Grade 8 Workbook</span>
           <span>(2.116 MB)</span>
           <div className="icons">
-            <a href="/files/grade_8_workbook.pdf" target="_blank">
+            <a
+              href="/apartheid-museum-clone/files/grade_8_workbook.pdf"
+              target="_blank"
+            >
               <FiEye size={16} />
             </a>
 
-            <a href="/files/grade_8_workbook.pdf" download>
+            <a
+              href="/apartheid-museum-clone/files/grade_8_workbook.pdf"
+              download
+            >
               <FiDownload size={16} />
             </a>
           </div>
@@ -164,11 +172,17 @@ const Visit = () => {
           <span>Grade 9 Workbook</span>
           <span>(2.651 MB)</span>
           <div className="icons">
-            <a href="/files/grade_9_workbook.pdf" target="_blank">
+            <a
+              href="/apartheid-museum-clone/files/grade_9_workbook.pdf"
+              target="_blank"
+            >
               <FiEye size={16} />
             </a>
 
-            <a href="/files/grade_9_workbook.pdf" download>
+            <a
+              href="/apartheid-museum-clone/files/grade_9_workbook.pdf"
+              download
+            >
               <FiDownload size={16} />
             </a>
           </div>
