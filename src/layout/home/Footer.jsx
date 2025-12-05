@@ -64,7 +64,7 @@ const Footer = () => {
             </div>
             <ul>
               <li>
-                <a href="#get-tickets">Get Tickets</a>
+                <Link to="/visit">Booking Information</Link>
               </li>
             </ul>
           </div>

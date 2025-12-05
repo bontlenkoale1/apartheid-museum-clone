@@ -117,8 +117,8 @@ h2.download-title {
   margin-right: 10px;
   cursor: pointer;
 }
-a svg:hover{
-  color:#ffffff;
+a svg:hover {
+  color: #ffffff;
 }
 a svg {
   color: #543814;
@@ -127,3 +127,137 @@ a svg {
 }
 
 /* Media Queries */
+@media (max-width: 1024px) {
+  h1.title {
+    font-size: 30px;
+    margin-left: -90px;
+  }
+}
+@media (max-width: 768px) {
+  h1.title {
+    font-size: 25px;
+    margin-left: -60px;
+  }
+  .download-item {
+    width: 100%;
+  }
+  p.description {
+    font-size: 18px;
+  }
+}
+@media (max-width: 640px) {
+  .visithero-background {
+    min-height: 40vh;
+  }
+  
+  h1.title {
+    font-size: 20px;
+    margin-left: -40px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    width: 90%;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  p.description {
+    font-size: 16px;
+  }
+  .bookinginfo-wrapper {
+    width: 90%;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .bookinginfo-wrapper > div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h2.info,
+  h3.guideline-info,
+  h2.download-title {
+    font-size: 24px;
+  }
+  
+  
+  .info-list li {
+    font-size: 16px;
+  }
+  
+  .downloads-section {
+    width: 90%;
+    margin-bottom: 40px;
+  }
+  
+  .download-item {
+    padding: 8px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 480px) {
+  .visithero-background {
+    min-height: 35vh;
+  }
+  
+  h1.title {
+    font-size: 18px;
+    margin-left: 0;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+  
+  .description {
+    width: 95%;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+  }
+  p.description {
+    font-size: 14px;
+  }
+  .bookinginfo-wrapper {
+    width: 95%;
+    margin-bottom: 30px;
+  }
+  
+  h2.info,
+  h3.guideline-info,
+  h2.download-title {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .info-list li {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  
+  h3.guideline-info {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .downloads-section {
+    width: 95%;
+    margin-bottom: 30px;
+  }
+  
+  .download-item {
+    padding: 7px;
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .icons {
+    margin-right: 5px;
+  }
+  
+  a svg {
+    margin-left: 10px;
+  }
+}
