@@ -107,8 +107,8 @@ const Exhibitions = () => {
                   Uprising, while international boycotts increased pressure on
                   the regime. By the late 1980s, escalating unrest and global
                   condemnation forced negotiations. In 1990, Nelson Mandela was
-                  released and banned organizations were legalized. **Apartheid
-                  ended in 1994** with South Africa's first democratic
+                  released and banned organizations were legalized.Apartheid
+                  ended in 1994 with South Africa's first democratic
                   elections, won by the ANC.
                   <br />
                   Ernest Cole, born Kole, was probably the finest documentary

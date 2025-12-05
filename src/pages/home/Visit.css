@@ -1,0 +1,263 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.visithero-background {
+  width: 100vw;
+  min-height: 60vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.225),
+      rgba(0, 0, 0, 0.192)
+    ),
+    url("/Images/School-visits.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+h1.title {
+  color: #000000f0;
+  font-size: 35px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  margin-left: -180px;
+  margin-bottom: 30px;
+  margin-top: 80px;
+}
+.highlights {
+  background: linear-gradient(
+    90deg,
+    #6e542d 0%,
+    #8b7d4b 30%,
+    #e89505 60%,
+    #89640c 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  margin-left: 8px;
+}
+.description {
+  width: 80%;
+  margin: auto;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 40px;
+}
+.bookinginfo-wrapper {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 60px;
+}
+h2.info {
+  text-shadow: none;
+  font-size: 30px;
+  color: #000000;
+  font-weight: bold;
+}
+.info-list li {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+}
+h3.guideline-info {
+  text-shadow: none;
+  font-size: 30px;
+  color: #000000;
+  margin-top: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+li::marker {
+  color: #e89505;
+}
+.downloads-section {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 60px;
+}
+h2.download-title {
+  text-shadow: none;
+  font-size: 30px;
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: -20px;
+}
+.download-item {
+  background-color: #6e542d;
+  width: 800px;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 20px;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.download-item:hover {
+  color: #ffff;
+  background-color: #8e7344;
+}
+.icons {
+  display: flex;
+  justify-content: right;
+  margin-right: 10px;
+  cursor: pointer;
+}
+a svg:hover {
+  color: #ffffff;
+}
+a svg {
+  color: #543814;
+  margin-left: 15px;
+  transition: color 0.3s ease;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  h1.title {
+    font-size: 30px;
+    margin-left: -90px;
+  }
+}
+@media (max-width: 768px) {
+  h1.title {
+    font-size: 25px;
+    margin-left: -60px;
+  }
+  .download-item {
+    width: 100%;
+  }
+  p.description {
+    font-size: 18px;
+  }
+}
+@media (max-width: 640px) {
+  .visithero-background {
+    min-height: 40vh;
+  }
+  
+  h1.title {
+    font-size: 20px;
+    margin-left: -40px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    width: 90%;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  p.description {
+    font-size: 16px;
+  }
+  .bookinginfo-wrapper {
+    width: 90%;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .bookinginfo-wrapper > div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h2.info,
+  h3.guideline-info,
+  h2.download-title {
+    font-size: 24px;
+  }
+  
+  
+  .info-list li {
+    font-size: 16px;
+  }
+  
+  .downloads-section {
+    width: 90%;
+    margin-bottom: 40px;
+  }
+  
+  .download-item {
+    padding: 8px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 480px) {
+  .visithero-background {
+    min-height: 35vh;
+  }
+  
+  h1.title {
+    font-size: 18px;
+    margin-left: 0;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+  
+  .description {
+    width: 95%;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+  }
+  p.description {
+    font-size: 14px;
+  }
+  .bookinginfo-wrapper {
+    width: 95%;
+    margin-bottom: 30px;
+  }
+  
+  h2.info,
+  h3.guideline-info,
+  h2.download-title {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .info-list li {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  
+  h3.guideline-info {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .downloads-section {
+    width: 95%;
+    margin-bottom: 30px;
+  }
+  
+  .download-item {
+    padding: 7px;
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .icons {
+    margin-right: 5px;
+  }
+  
+  a svg {
+    margin-left: 10px;
+  }
+}
