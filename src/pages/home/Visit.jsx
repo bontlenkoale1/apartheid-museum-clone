@@ -7,7 +7,7 @@ const Visit = () => {
     <div className="visithero">
       <div className="visithero-background"></div>
       <h1 className="title">
-        School Visits: What You{" "}
+        School Visits: What You
         <span className="highlights">Need To Know </span>
       </h1>
       <br />
