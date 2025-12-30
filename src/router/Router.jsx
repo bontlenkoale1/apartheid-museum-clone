@@ -5,7 +5,6 @@ import AboutPage from "../pages/home/AboutPage";
 import Exhibitions from "../pages/home/Exhibitions";
 import Visit from "../pages/home/Visit";
 import Events from "../pages/home/Events";
-import Resources from "../pages/home/Resources";
 import Contact from "../pages/home/Contact";
 const router = createBrowserRouter(
   [
@@ -18,7 +17,6 @@ const router = createBrowserRouter(
         { path: "exhibitions", element: <Exhibitions /> },
         { path: "visit", element: <Visit /> },
         { path: "events", element: <Events /> },
-        { path: "resources", element: <Resources /> },
         { path: "contact", element: <Contact /> },
       ],
     },

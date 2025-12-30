@@ -74,9 +74,6 @@ export const Navbar = () => {
             <Link to="/events">Events</Link>
           </li>
           <li onClick={closeSidebar}>
-            <Link to="/resources">Resources</Link>
-          </li>
-          <li onClick={closeSidebar}>
             <Link to="/contact">Contact Us</Link>
           </li>
         </ul>
@@ -97,9 +94,6 @@ export const Navbar = () => {
           </li>
           <li>
             <Link to="/events">Events</Link>
-          </li>
-          <li>
-            <Link to="/resources">Resources</Link>
           </li>
           <li>
             <Link to="/contact">Contact Us</Link>
