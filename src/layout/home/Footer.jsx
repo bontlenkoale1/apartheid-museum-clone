@@ -81,13 +81,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="footer-col">
-          <div className="footer-links">
-            <div className="footer-heading-row">
-              <h3>Resources</h3>
-            </div>
-          </div>
-        </div>
+       
         <div className="footer-col">
           <div className="footer-links">
             <div className="footer-heading-row">
