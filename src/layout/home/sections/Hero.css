@@ -116,6 +116,7 @@ body, html {
   height: 20px;
   color: #af5507;
   font-size: 18px;
+  margin-top: -18px;
 }
 
 .search-icon:hover {
