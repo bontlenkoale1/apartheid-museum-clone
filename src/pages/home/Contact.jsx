@@ -70,33 +70,31 @@ const Contact = () => {
             </div>
           </div>
         </div>
-                  <div className="contact-right-form-wrapper">
-            <div className="contact-form">
-              <h2>Tell Us What You Need</h2>
-              <p className="form-subtitle">
-                Our team is ready to assist you with every detail.
-              </p>
+        <div className="contact-right-form-wrapper">
+          <div className="contact-form">
+            <h2>Tell Us What You Need</h2>
+            <p className="form-subtitle">
+              Our team is ready to assist you with every detail.
+            </p>
 
-              <form>
-                <div className="row">
-                  <input type="text" placeholder="First Name" />
-                </div>
+            <form>
+              <div className="row">
+                <input type="text" placeholder="First Name" />
+              </div>
 
-                <div className="row">
-                  <input type="text" placeholder="Country" />
-                  <input type="tel" placeholder="Phone Number" />
-                </div>
+              <div className="row">
+                <input type="text" placeholder="Country" />
+                <input type="tel" placeholder="Phone Number" />
+              </div>
 
-                <input type="email" placeholder="Email Address" />
+              <input type="email" placeholder="Email Address" />
 
+              <textarea placeholder="Message"></textarea>
 
-                <textarea placeholder="Message"></textarea>
-
-
-                <button className="submit-btn">Submit</button>
-              </form>
-            </div>
+              <button className="submit-btn">Submit</button>
+            </form>
           </div>
+        </div>
       </div>
     </div>
   );
